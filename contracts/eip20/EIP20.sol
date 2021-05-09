@@ -1,14 +1,14 @@
 /*
-Implements EIP20 token standard: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
+kingwallaceMusic token standard: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
 .*/
 
 
 pragma solidity ^0.4.21;
 
-import "./EIP20Interface.sol";
+import "./kingwallacecoin";
 
 
-contract EIP20 is EIP20Interface {
+contract kingwallacecoin is kingwallacecoin {
 
     uint256 constant private MAX_UINT256 = 2**256 - 1;
     mapping (address => uint256) public balances;
